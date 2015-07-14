@@ -2,9 +2,9 @@ require "formula"
 
 class Mdm < Formula
   homepage "https://github.com/polydawn/mdm"
-  url "https://github.com/mdm-releases/mdm-releases/blob/master/v2.19.0/mdm?raw=true", :using => :nounzip
-  sha1 "0ec8fab1bb20ca0c0a38b00be8cc5106de72c8bd"
-  version "2.19.0"
+  url "https://github.com/mdm-releases/mdm-releases/blob/master/v2.19.1/mdm?raw=true", :using => :nounzip
+  sha1 "190ec9e5c149ea3f81070cf7fd17570c62ee1562"
+  version "2.19.1"
 
   def install
     bin.install Dir["mdm"]
